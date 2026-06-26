@@ -1,227 +1,336 @@
-# Business Plan revisado — temp_company
+# Business Plan revisado — turismo, experiências e app transacional
 
-Documento de trabalho revisado a partir do PDF `temp_company_Business_Plan_f65d.pdf`, recebido em 26/06/2026.
+Documento de trabalho revisado a partir do PDF `temp_company_Business_Plan_f65d.pdf`, recebido em 26/06/2026, e atualizado para focar o nicho de turismo.
 
 ## 1. Resumo executivo revisado
 
-A temp_company deve operar em duas ondas de receita:
+A temp_company deve deixar de se posicionar como uma agência genérica de no-code/IA e concentrar a narrativa em um produto vertical para **turismo, passeios, experiências, transfers e serviços locais**.
 
-1. **Caixa inicial por sistemas sob medida**: venda de sistemas/implantações em torno de **US$ 20.000 por projeto**, especialmente para empresas que precisam digitalizar processos, integrar ferramentas e lançar operações rapidamente.
-2. **Escala pelo app**: crescimento posterior por um app próprio/integrado, com monetização recorrente e transacional. O app tende a superar a receita de projetos porque combina agilidade, integração com o fluxo operacional do cliente e cobrança sobre uso/venda.
+A tese fica mais forte quando o sistema de US$ 20.000 é vendido como uma implantação para empresas de turismo, enquanto o app vira o motor de escala. No primeiro momento, a maior parte do dinheiro vem da implantação do sistema. Depois, o app supera os projetos porque captura valor em cada reserva, venda, indicação, upsell e serviço operacionalizado pela plataforma.
 
-No primeiro momento, o sistema de US$ 20.000 é a linha mais importante para financiar operação, aquisição de clientes, produto e caixa. No entanto, o objetivo estratégico deve ser transformar cada implantação em porta de entrada para o app, criando receita recorrente, transacional e menos dependente de novos projetos.
+O conhecimento operacional do parceiro uruguaio deve ser tratado como ativo estratégico. Ele ajuda a transformar um app simples em um produto realmente funcional para turismo: catálogo de experiências, disponibilidade, roteiros, reservas, comunicação com o turista, operação do fornecedor, repasses, comissões, suporte e regras locais.
 
-## 2. Tese de monetização
+## 2. Nicho prioritário: turismo receptivo e experiências locais
 
-### 2.1 Sistema sob medida — principal receita inicial
+### Problema do mercado
 
-O sistema de US$ 20.000 funciona como produto de entrada premium para empresas que precisam de uma solução pronta, integrada e adaptada ao processo interno.
+Operadores de turismo, guias, agências, hotéis, pousadas e empresas de transfer ainda vendem e operam com muitos processos manuais:
 
-**O que está incluído no ticket-base:**
+- atendimento por WhatsApp sem funil organizado;
+- catálogo de passeios espalhado em PDFs, Instagram, sites e mensagens;
+- disponibilidade controlada manualmente;
+- baixa integração entre reserva, pagamento, fornecedor e operação;
+- dificuldade de vender extras durante a viagem;
+- pouca visibilidade sobre GMV, margem, comissão e performance por parceiro;
+- dependência de marketplaces grandes, que cobram taxas altas e controlam a relação com o cliente.
 
-- diagnóstico do processo;
-- desenho do fluxo e telas principais;
-- construção no-code/low-code;
-- integrações essenciais;
-- automações;
-- camada inicial de IA, quando fizer sentido;
-- onboarding do time do cliente;
-- período limitado de ajustes pós-go-live.
+### Oportunidade
 
-**Papel estratégico:** gerar caixa, criar casos de sucesso e alimentar o pipeline do app.
+Criar uma plataforma vertical que combine:
 
-### 2.2 App — principal motor de escala
+- **app para turista/cliente final**;
+- **painel para operador/agência/parceiro**;
+- **sistema de gestão de reservas e serviços**;
+- **integrações com pagamento, WhatsApp, CRM e automações**;
+- **IA para atendimento, recomendação de roteiros e suporte operacional**.
 
-O app deve ser tratado como a linha de maior potencial de longo prazo. Ele pode monetizar em duas frentes:
+O foco inicial pode ser turismo receptivo, onde há maior fragmentação e necessidade de operação local: passeios, experiências, guias, transfers, eventos, restaurantes parceiros, ingressos e pacotes customizados.
 
-#### Frente A — cliente direto da temp_company
+## 3. Produto proposto
 
-Usuário pessoa física ou pequeno cliente que compra/usa diretamente pelo app.
+### 3.1 Sistema de implantação — ticket de US$ 20.000
+
+O sistema de US$ 20.000 deve ser vendido para empresas de turismo que precisam digitalizar operação e venda rapidamente.
+
+**Inclui:**
+
+- mapeamento da operação turística;
+- catálogo digital de passeios, experiências e serviços;
+- regras de disponibilidade, agenda, grupos e capacidade;
+- fluxo de reserva e confirmação;
+- integração com pagamentos ou links de pagamento;
+- painel administrativo para equipe interna;
+- cadastro de fornecedores/parceiros;
+- automações de WhatsApp/e-mail;
+- relatórios de vendas, reservas, origem e comissão;
+- onboarding da equipe e ajustes iniciais.
+
+**Papel estratégico:** gerar caixa, validar fluxos reais e transformar cada implantação em um cliente do app/plataforma.
+
+### 3.2 App vertical de turismo — motor de escala
+
+O app deve ser o produto central de longo prazo. Ele pode operar como marketplace, white-label para empresas ou infraestrutura transacional para parceiros.
+
+**Funcionalidades-base:**
+
+- busca e descoberta de experiências;
+- roteiros sugeridos por perfil, data, idioma e localização;
+- reserva de passeios, transfers e serviços;
+- checkout ou solicitação de pagamento;
+- carteira de reservas do turista;
+- notificações de horário, ponto de encontro e mudanças;
+- chat/atendimento com IA e handoff humano;
+- avaliações e recompra;
+- ofertas de extras durante a viagem;
+- painel de parceiro para cadastrar oferta, preço e disponibilidade;
+- painel do operador para acompanhar vendas, comissões e operação.
+
+Com o conhecimento do parceiro uruguaio, o app deve evoluir para lidar com detalhes que fazem diferença no turismo real: sazonalidade, clima, overbooking, cancelamento, no-show, idioma, comissão de guias, repasse a fornecedores, ponto de encontro, logística de transfer e venda cruzada entre experiências.
+
+## 4. Modelo de monetização no turismo
+
+### 4.1 Frente A — turista/cliente direto
+
+O cliente final usa o app para descobrir e comprar experiências.
 
 Modelos possíveis:
 
-- assinatura mensal;
-- fee por transação;
-- pacote de créditos;
-- plano freemium com recursos pagos;
-- cobrança por serviço vendido/contratado dentro do app.
+- fee embutido no preço final do passeio/serviço;
+- cobrança por conveniência;
+- pacote premium de roteiro/concierge;
+- upsell de experiências, transfers, seguro, restaurantes e eventos;
+- ofertas patrocinadas por parceiros.
 
-#### Frente B — cliente da empresa parceira/contratante
+### 4.2 Frente B — empresa de turismo
 
-Usuário final da empresa que utiliza serviços vendidos ou operacionalizados pelo app.
+A empresa usa o sistema/app para vender melhor, operar reservas e controlar parceiros.
 
 Modelos possíveis:
 
-- cobrança da empresa contratante por uso, volume ou licença;
-- cobrança embutida no valor do serviço vendido dentro do app;
-- fee transacional sobre GMV;
-- fee fixo por serviço concluído;
-- combinação de mensalidade da empresa + fee por transação.
+- implantação inicial de US$ 20.000;
+- mensalidade por unidade, operação ou volume;
+- fee de 1% a 3% sobre GMV;
+- fee fixo por reserva confirmada;
+- plano white-label para agências, hotéis ou operadoras;
+- cobrança por módulos extras: IA, CRM, automações, relatórios avançados e integrações.
 
-Importante: quando o fee estiver embutido no valor do serviço, ele deve ser tratado como parte do preço final e formalizado em contrato com a empresa. O usuário final pode ver apenas o preço total do serviço, mas a divisão econômica precisa ser transparente entre as partes, fiscalmente documentada e compatível com regras de pagamento, consumidor e marketplace.
+### 4.3 Cobrança embutida no serviço
 
-## 3. Modelo de cobrança recomendado
+No turismo, a cobrança pode aparecer para o usuário final como preço total do passeio, transfer ou experiência. A divisão econômica entre empresa, fornecedor, parceiro comercial e temp_company deve ficar formalizada em contrato.
 
-### 3.1 Fee percentual
+Recomendação: evitar linguagem de "taxa escondida". O correto é tratar o fee como parte do preço final, com documentação fiscal e regras claras de repasse, cancelamento e chargeback.
 
-Cobrar entre **1% e 3%** sobre o valor da venda/transação, variando conforme ticket, volume e margem do serviço.
+## 5. Modelo de cobrança recomendado
 
-Referência sugerida:
+### 5.1 Take rate de 1% a 3%
 
-| Tipo de transação | Valor médio | Fee sugerido |
+Cobrar entre **1% e 3%** sobre o GMV de reservas/vendas processadas pelo app, ajustando por tipo de serviço.
+
+| Categoria turística | Ticket médio | Fee sugerido |
 | --- | ---: | ---: |
-| Ticket alto / margem baixa | acima de US$ 2.000 | 1,0% a 1,5% |
-| Ticket médio | US$ 300 a US$ 2.000 | 1,5% a 2,5% |
-| Ticket baixo / alto volume | abaixo de US$ 300 | 2,0% a 3,0% |
+| Transfers e serviços de margem baixa | US$ 40 a US$ 150 | 1,0% a 1,5% |
+| Passeios e experiências recorrentes | US$ 50 a US$ 300 | 2,0% a 3,0% |
+| Pacotes premium / grupos privados | acima de US$ 500 | 1,0% a 2,0% |
+| Upsells e extras no app | variável | 2,0% a 3,0% |
 
-### 3.2 Fee fixo
+### 5.2 Fee fixo
 
-Usar fee fechado quando o cliente quer previsibilidade ou quando a margem da operação não comporta percentual.
+Usar fee fechado quando o percentual não for aceito pelo parceiro ou quando o serviço tiver margem muito apertada.
 
 Exemplos:
 
-- valor fixo por transação concluída;
-- pacote mensal com limite de transações;
-- assinatura por unidade/franquia/usuário;
-- fee mínimo mensal + variável por excedente.
+- US$ 1 a US$ 5 por reserva confirmada;
+- pacote mensal com limite de reservas;
+- fee mínimo mensal + variável por excedente;
+- plano por hotel/agência/franquia.
 
-### 3.3 Combinação ideal
+### 5.3 Modelo ideal
 
-Para reduzir risco de caixa, o modelo mais forte é:
-
-`setup/implantação + mensalidade + fee transacional`
+`implantação + mensalidade + take rate + módulo premium`
 
 Exemplo:
 
 - US$ 20.000 de implantação;
-- mensalidade para manutenção, evolução e suporte;
-- 1% a 3% sobre vendas/processos transacionados no app, ou fee fixo por operação.
+- mensalidade para sustentação, suporte e evolução;
+- 1% a 3% sobre vendas/reservas feitas no app;
+- módulo premium de IA/concierge/roteiros quando houver volume.
 
-## 4. Parcerias comerciais
+## 6. Parcerias comerciais no turismo
 
-A estratégia de parcerias pode acelerar aquisição e reduzir CAC, desde que a comissão não destrua margem.
+Parcerias são centrais nesse nicho, porque distribuição e confiança local importam muito.
 
-### 4.1 Comissão recomendada
+### 6.1 Possíveis parceiros
 
-Oferecer **20% a 30% ao parceiro** sobre receita indicada, com regras claras:
+- hotéis e pousadas;
+- guias locais;
+- agências receptivas;
+- operadoras de passeio;
+- empresas de transfer;
+- restaurantes, beach clubs e eventos;
+- criadores de conteúdo de viagem;
+- associações locais de turismo.
 
-- comissão sobre a primeira venda/projeto;
-- comissão recorrente por prazo limitado quando houver assinatura;
-- comissão menor para receita transacional de longo prazo;
-- pagamento condicionado ao recebimento do cliente;
-- registro formal da oportunidade para evitar conflito entre parceiros.
+### 6.2 Comissão recomendada
 
-### 4.2 Estrutura sugerida
+Oferecer **20% a 30% ao parceiro** quando ele trouxer venda qualificada, canal de distribuição ou carteira ativa.
 
 | Tipo de parceiro | Comissão sugerida | Observação |
 | --- | ---: | --- |
 | Indicador simples | 10% a 15% | Apenas apresenta o lead |
-| Parceiro comercial ativo | 20% | Participa da venda |
-| Parceiro estratégico/canal | 25% a 30% | Traz volume, carteira ou exclusividade |
+| Parceiro comercial ativo | 20% | Participa da venda e ajuda na conversão |
+| Canal estratégico local | 25% a 30% | Traz carteira, exclusividade ou volume |
 
-Para o modelo pedido, a faixa de **20% a 30%** faz sentido em parcerias que realmente tragam venda qualificada ou canal de distribuição. Para indicações simples, uma faixa menor preserva margem.
+Para receita transacional contínua, a comissão deve ter prazo ou degrau: maior no começo, menor quando a operação já está rodando. Isso protege margem e evita que 30% seja pago indefinidamente sobre transações automatizadas.
 
-## 5. Projeção financeira revisada
+## 7. Go-to-market focado em turismo
 
-As projeções abaixo são ilustrativas e devem ser calibradas com taxa de câmbio, impostos, custos de plataforma, margem dos serviços e conversão comercial real.
+### 7.1 Cliente inicial ideal
 
-### 5.1 Projeção em US$
+Empresas de turismo receptivo com:
+
+- catálogo de 20+ experiências/serviços;
+- vendas por WhatsApp/Instagram/site;
+- operação com guias, transfers ou fornecedores terceiros;
+- margem suficiente para pagar implantação;
+- dor clara em reservas, pagamentos, comissão e atendimento;
+- interesse em vender mais durante a viagem.
+
+### 7.2 Entrada no mercado
+
+1. Vender 2 a 3 implantações de US$ 20.000 para operadores/agências com dor operacional real.
+2. Usar esses clientes para validar o app: catálogo, reserva, pagamento, comissão e comunicação.
+3. Transformar os fluxos repetidos em produto padronizado.
+4. Abrir modelo white-label ou marketplace para hotéis, guias e parceiros locais.
+5. Escalar por destinos turísticos com parceiros locais fortes.
+
+### 7.3 Papel do parceiro uruguaio
+
+O parceiro uruguaio deve ser posicionado como fonte de conhecimento de campo e não apenas como contato comercial. Sua contribuição pode fortalecer:
+
+- desenho de fluxos reais de turismo receptivo;
+- priorização de funcionalidades úteis;
+- entendimento de sazonalidade e comportamento do turista;
+- rede de fornecedores e operadores locais;
+- validação de preço, comissão e forma de venda;
+- adaptação cultural/idioma para turistas internacionais.
+
+Isso reduz o risco de criar um app bonito, mas pouco usado na operação real.
+
+## 8. Projeção financeira revisada para turismo
+
+As projeções abaixo são ilustrativas e devem ser calibradas com destino, câmbio, impostos, gateways, comissões, sazonalidade e mix de serviços.
+
+### 8.1 Projeção em US$
 
 | Linha de receita | Ano 1 | Ano 2 | Ano 3 |
 | --- | ---: | ---: | ---: |
-| Sistemas sob medida (US$ 20k) | US$ 240.000 | US$ 360.000 | US$ 420.000 |
-| Mensalidades/sustentação | US$ 36.000 | US$ 108.000 | US$ 216.000 |
-| App — assinaturas/uso | US$ 18.000 | US$ 180.000 | US$ 420.000 |
-| App — fees transacionais | US$ 12.000 | US$ 240.000 | US$ 720.000 |
-| **Receita total estimada** | **US$ 306.000** | **US$ 888.000** | **US$ 1.776.000** |
+| Implantações turismo (US$ 20k) | US$ 240.000 | US$ 360.000 | US$ 420.000 |
+| Mensalidades/sustentação | US$ 36.000 | US$ 144.000 | US$ 300.000 |
+| App — assinaturas/white-label | US$ 18.000 | US$ 180.000 | US$ 480.000 |
+| App — fees sobre reservas | US$ 12.000 | US$ 300.000 | US$ 900.000 |
+| **Receita total estimada** | **US$ 306.000** | **US$ 984.000** | **US$ 2.100.000** |
 
 Leitura da projeção:
 
-- no Ano 1, a maior parte da receita vem de sistemas de US$ 20.000;
-- no Ano 2, o app já supera a linha de projetos pela soma de assinaturas/uso e fees;
-- no Ano 3, o app supera projetos por volume, integração e cobrança transacional.
+- no Ano 1, o caixa vem principalmente das implantações de US$ 20.000;
+- no Ano 2, o app já supera a linha de implantação somando white-label/assinaturas e fees;
+- no Ano 3, o app vira a principal fonte de receita pela escala do GMV turístico.
 
-### 5.2 Projeção operacional simplificada
+### 8.2 Projeção operacional simplificada
 
 | Indicador | Ano 1 | Ano 2 | Ano 3 |
 | --- | ---: | ---: | ---: |
-| Sistemas vendidos | 12 | 18 | 21 |
-| Ticket médio de sistema | US$ 20.000 | US$ 20.000 | US$ 20.000 |
-| GMV processado no app | US$ 600.000 | US$ 10.000.000 | US$ 30.000.000 |
-| Take rate médio do app | 2,0% | 2,4% | 2,4% |
-| Receita transacional app | US$ 12.000 | US$ 240.000 | US$ 720.000 |
+| Implantações vendidas | 12 | 18 | 21 |
+| Ticket médio de implantação | US$ 20.000 | US$ 20.000 | US$ 20.000 |
+| Empresas ativas na plataforma | 8 | 35 | 90 |
+| GMV de turismo processado no app | US$ 600.000 | US$ 12.500.000 | US$ 37.500.000 |
+| Take rate médio | 2,0% | 2,4% | 2,4% |
+| Receita transacional app | US$ 12.000 | US$ 300.000 | US$ 900.000 |
 
-## 6. Revisão do Lean Canvas
+## 9. Lean Canvas revisado
+
+### Problema
+
+- Turismo local ainda é operado com ferramentas manuais.
+- Empresas perdem venda por falta de catálogo, reserva e pagamento integrados.
+- Turistas querem praticidade, confiança, idioma e suporte rápido.
+- Fornecedores precisam vender mais sem depender só de grandes marketplaces.
+
+### Segmentos
+
+- Agências receptivas;
+- operadores de passeio;
+- hotéis e pousadas;
+- guias e empresas de transfer;
+- turistas nacionais e internacionais;
+- parceiros locais que vendem experiências.
+
+### Proposta de valor
+
+- App e sistema para vender, reservar e operar turismo local.
+- Implantação rápida com ticket premium.
+- Plataforma transacional que monetiza por uso.
+- IA para atendimento, roteiro, recomendação e suporte.
+- Operação mais integrada para empresa, parceiro e turista.
 
 ### Receita
 
-Substituir a seção original de receita por:
-
-- sistemas sob medida com ticket-base de US$ 20.000;
-- setup/implantação;
-- mensalidade de sustentação, suporte e evolução;
-- app com assinatura, uso e fee transacional;
-- fee de 1% a 3% sobre vendas feitas ou operacionalizadas pelo app;
-- fee fixo por transação/serviço quando o percentual não fizer sentido;
-- parcerias com comissionamento de 20% a 30% para canais qualificados.
+- implantação de US$ 20.000;
+- mensalidade por operação/unidade;
+- fee de 1% a 3% sobre reservas e vendas;
+- fee fixo por reserva quando fizer mais sentido;
+- white-label para empresas de turismo;
+- módulos premium de IA, CRM e automações;
+- comissão/parceria comercial estruturada.
 
 ### Métricas-chave
 
-Adicionar:
-
 - GMV processado pelo app;
 - take rate médio;
-- receita transacional mensal;
-- número de empresas ativas;
-- número de usuários finais ativos;
-- percentual de sistemas convertidos em contratos recorrentes/app;
-- payback por canal/parceiro;
-- margem líquida após comissões.
+- reservas confirmadas;
+- taxa de cancelamento/no-show;
+- empresas ativas;
+- turistas ativos;
+- receita por destino;
+- margem líquida após gateways, impostos e comissões;
+- percentual de implantação convertida em receita recorrente.
 
 ### Vantagem competitiva
 
-Reforçar:
+- Foco vertical em turismo, não software genérico.
+- Entrada por sistema de alto ticket e expansão por app.
+- Conhecimento operacional do parceiro uruguaio.
+- Integração de catálogo, reserva, pagamento, comissão e atendimento.
+- Possibilidade de escalar por destino turístico e rede de parceiros locais.
 
-- integração entre app, automação, IA e operação real do cliente;
-- monetização em múltiplas camadas;
-- entrada por projeto de alto ticket e expansão por app;
-- capacidade de vender para empresa e capturar valor no uso do cliente final.
-
-## 7. Avaliação crítica
+## 10. Avaliação crítica
 
 ### Pontos fortes
 
-- O ticket de US$ 20.000 dá caixa relevante desde o início.
-- O app cria potencial de escala, recorrência e receita transacional.
-- O modelo tem mais de uma alavanca: implantação, mensalidade, fee, parceria e evolução.
-- Parcerias podem acelerar distribuição sem montar equipe comercial grande no início.
-- A integração com o processo do cliente aumenta retenção e reduz substituição por ferramentas genéricas.
+- Turismo tem dor operacional clara e alta dependência de atendimento rápido.
+- O ticket de US$ 20.000 financia os primeiros ciclos do produto.
+- O app captura valor recorrente em reservas, upsells e serviços.
+- A rede local e o conhecimento uruguaio aumentam aderência ao mercado.
+- Parceiros podem acelerar distribuição em destinos turísticos.
 
 ### Pontos de atenção
 
-- Fee embutido precisa ser juridicamente correto e fiscalmente documentado.
-- A margem pode cair rápido se houver comissão de 20% a 30%, impostos, gateways e suporte intensivo.
-- O app só supera projetos se houver volume real de transações ou usuários ativos.
-- O modelo B2B2C exige cuidado com LGPD, termos de uso, responsabilidade sobre pagamento e atendimento.
-- Se cada implantação for muito customizada, o app pode virar um conjunto de exceções difíceis de escalar.
+- Sazonalidade pode distorcer receita mensal e uso do app.
+- Turismo envolve cancelamento, clima, no-show, reembolso e chargeback.
+- Split de pagamento e repasse a fornecedores exigem cuidado jurídico/fiscal.
+- Comissão de 20% a 30% pode corroer margem se aplicada por tempo indeterminado.
+- O produto precisa evitar customização excessiva por cliente/destino.
+- Marketplaces grandes podem pressionar preço e aquisição de demanda.
 
 ### Recomendações
 
-1. **Usar o sistema de US$ 20.000 como porta de entrada**, mas vender desde o início a visão de continuidade pelo app.
-2. **Padronizar 70% da solução** para que cada novo cliente fortaleça o produto, em vez de criar customizações isoladas.
-3. **Definir take rate por categoria**, com teto e piso por tipo de serviço.
-4. **Contratar/parceirizar jurídico e fiscal antes de operar cobrança embutida**, especialmente em marketplace, split de pagamento ou repasse.
-5. **Separar comissões de parceiros por tipo de receita**, evitando pagar 30% indefinidamente sobre transações de baixo esforço.
-6. **Medir GMV, take rate, churn e margem líquida por cliente**, pois receita bruta pode parecer boa enquanto a operação perde margem.
+1. **Focar em um destino ou microvertical primeiro**, como receptivo, transfers ou experiências premium.
+2. **Usar os primeiros sistemas de US$ 20.000 como laboratório pago**, extraindo padrões para o app.
+3. **Padronizar módulos essenciais**: catálogo, agenda, reserva, pagamento, comissão e comunicação.
+4. **Criar regras claras para fee embutido**, repasse, cancelamento, reembolso e nota fiscal.
+5. **Tratar parceiro uruguaio como co-desenhador do produto**, não só como canal comercial.
+6. **Medir GMV e margem por categoria**, porque passeio, transfer e pacote premium têm margens diferentes.
 
-## 8. Texto sugerido para substituir o resumo financeiro original
+## 11. Texto sugerido para substituir o resumo financeiro original
 
-A temp_company terá sua primeira fase financiada por sistemas sob medida com ticket-base de US$ 20.000. Essa linha deve gerar a maior parte da receita no início, validando dores reais, criando casos de sucesso e financiando o desenvolvimento do app. A partir da segunda fase, o app passa a ser o principal vetor de crescimento por reunir agilidade, integração operacional e cobrança recorrente/transacional.
+A temp_company deve concentrar sua primeira tese em turismo receptivo, experiências e serviços locais. A primeira fase será financiada por implantações de sistemas para empresas de turismo, com ticket-base de US$ 20.000. Essas implantações resolvem dores imediatas de catálogo, reserva, pagamento, atendimento e operação, além de gerar os aprendizados necessários para transformar o app em produto escalável.
 
-O app poderá monetizar em duas frentes: clientes diretos da temp_company e clientes das empresas contratantes. No segundo caso, a cobrança pode ocorrer diretamente da empresa, por mensalidade/licença, ou como parte do preço final de serviços vendidos pelo app, com fee percentual de 1% a 3% ou fee fixo por operação. Esse modelo deve ser formalizado contratualmente, com documentação fiscal e regras claras de repasse.
+O app passa a ser o principal vetor de crescimento ao conectar turistas, empresas e parceiros locais. Ele pode monetizar em duas frentes: diretamente com o turista, por conveniência, upsells e serviços adicionais; e com empresas de turismo, por mensalidade, white-label, fee fixo por reserva ou take rate de 1% a 3% sobre vendas processadas.
 
-Para acelerar aquisição, a temp_company poderá operar com parceiros comerciais, oferecendo entre 20% e 30% de comissão para canais que tragam vendas qualificadas. A comissão deve variar conforme o papel do parceiro, o tipo de receita e a duração do contrato, preservando margem e evitando dependência excessiva de terceiros.
+O conhecimento operacional do parceiro uruguaio aumenta a chance de o app sair de um protótipo genérico para uma solução realmente funcional no turismo. Ele contribui com entendimento de destino, sazonalidade, fornecedores, comportamento do turista, idioma, comissões, repasses e dinâmica comercial local.
 
-## 9. Conclusão
+Para acelerar aquisição, a temp_company pode estruturar parcerias com hotéis, guias, operadores, agências e canais locais, oferecendo entre 20% e 30% de comissão para parceiros que tragam venda qualificada ou distribuição relevante. A comissão deve ser controlada por tipo de receita e prazo, preservando margem.
 
-A revisão fortalece o plano porque troca uma visão centrada apenas em projetos por uma estratégia em camadas. O sistema de US$ 20.000 resolve o curto prazo e financia a empresa; o app cria o upside de longo prazo. O ponto crítico é disciplinar o modelo desde o início: produto padronizável, contratos claros, cobrança segura, parceria com margem controlada e métricas de GMV/take rate acompanhadas desde os primeiros clientes.
+## 12. Conclusão
+
+O foco em turismo torna o business plan mais defendável. Em vez de vender software genérico, a empresa passa a atacar um nicho com dor clara, transações recorrentes e muitos parceiros locais. O sistema de US$ 20.000 gera caixa e valida operação; o app captura o upside por GMV, reservas, upsells e recorrência. A chave é transformar o conhecimento prático do turismo em produto padronizado, com cobrança segura, margem controlada e expansão por destino.
